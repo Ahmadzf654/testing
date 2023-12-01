@@ -50,7 +50,7 @@ class _ClassFourState extends State<ClassFour> {
                 }
               else if ( snapshot.hasError)
                 {
-                  return Text('errrror');
+                  return Text('error');
                 }
               else {
                 //return Text(data[0]['name'].toString());
