@@ -65,7 +65,7 @@ class _ClassFourState extends State<ClassFour> {
                       width: double.infinity,
                       decoration: BoxDecoration(
                         color: Colors.deepOrange,
-                        borderRadius: BorderRadius.circular(15),
+                        borderRadius: BorderRadius.circular(10),
                       ),
                       child: Column(
                         children: [
