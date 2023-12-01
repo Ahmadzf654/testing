@@ -48,6 +48,10 @@ class _ClassFourState extends State<ClassFour> {
                 {
                   return const  Center(child: CircularProgressIndicator());
                 }
+              else if ( snapshot.hasError)
+                {
+                  return Text('error');
+                }
               else {
                 //return Text(data[0]['name'].toString());
                 return ListView.builder(
